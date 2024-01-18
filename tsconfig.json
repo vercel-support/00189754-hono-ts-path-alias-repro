@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "allowJs": true,
+    "paths": {
+      "@service/*": [
+        "./services/*"
+      ],
+      "@route/*": [
+        "./routes/*"
+      ]
+    }
+  },
+  "include": [
+    "routes",
+    "services",
+    "api",
+  ]
+}
